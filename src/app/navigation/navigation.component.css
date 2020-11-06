@@ -1,0 +1,50 @@
+nav {
+
+    color:gray;
+}
+#logo{
+	height: 75px;
+	width: 75px;
+}
+
+.navbar-toggler{
+	outline: none!important;
+	border: none;
+	font-size: 2.2rem;
+	color: var(--mainYellow)!important;
+}
+
+.nav-link{
+	font-size: 1.6rem;
+	border-bottom: 0.1rem solid var(--mainWhite);
+}
+
+.nav-active{
+	border-bottom: 0.1rem solid var(--mainYellow);
+}
+
+.navbar-icon{
+	font-size: 1.6rem;
+}
+
+.navbar-cart-icon{
+
+	position: relative;
+}
+
+
+.cart-items{
+
+	position: absolute;
+	top: -15%;
+	right: -25%;
+	padding: 0.2rem 0.3rem;
+	
+	font-size: 0.1rem;
+	border-radius: 50%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
